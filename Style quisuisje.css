@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ****************************NAVBAR******************** */
+nav {
+  overflow: hidden;
+  background-color: #7e69b9;
+  position: fixed;
+  width: 100%;
+  opacity: 0.7;
+}
+header li {
+  float: right;
+  font-size: 1.2em;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;  
+}
+#logo {
+  font-family: 'Quicksand', cursive;
+  font-weight: bold;
+  float: left;
+}
+/* **************************IMAGE PRINCIPALE*********************** */
+#imagePrincipale {
+  padding-top: 60px;
+  background: url() no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 799px;
+}
+h1 {
+  font-family: 'Oswald', cursive;
+  text-align: center;
+  color: #7e69b9;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+#premierTrait {
+  height: 3px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: #7e69b9;
+  box-shadow: 2px 1px 2px black;
+}
+h3 {
+  text-align: center;
+  color: #7e69b9;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+/* *****************************PRESENTATION***************** */
+#presentation {
+  background-color: #7e69b9;
+  padding: 10px 0px 100px 0px;
+}
+#texteIntro {
+  padding: 0px 20%;
+  text-align: center;
+}
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+.imagesPrestations h4 {
+  font-family: 'Quickand', cursive;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300; 
+}
+.imagesPrestations img {
+  border-radius: 10px;
+  box-shadow: 5px 4px 3px 1px rgba(0,0,0,0.7);
+}
+.imagesPrestations img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+/* ***************************ANNEXES****************************** */
+#annexes {
+  height: 1400px;
+  background-color: #f1f2f6;
+  padding: 1px 2%;
+}
+#annexes h2 {
+  padding-top: 60px;
+}
+#Soonb1 {
+  background-color: url();
+}
+#Soonb2 {
+  background-color: url();
+}
+#Soonb3 {
+  background-color: url();
+}
+#annexes li {
+  margin: 65px 100px 0 100px;
+  height: 226px;
+  width: 55%;
+  max-width: 550%; 
+  float: left;
+  box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+#annexes p {
+  height: 45px;
+  width: 235px;
+  background-color: #7e69b9;
+  float: right;
+  margin: 50px -180px 0 0;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 15px;
+  box-shadow: 4px 4px 0 1px #7e69b9;
+}
+#annexes #Soonb2 {
+  float: right;
+}
+#Soonb2 p {
+  float: left;
+  margin-left: -180px;
+  box-shadow: -4px 4px 0 1 #7e69b9;
+}
